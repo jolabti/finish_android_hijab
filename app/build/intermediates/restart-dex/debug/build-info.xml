@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="21"
+    density="xhdpi"
+    format="7"
+    timestamp="3732544619625" >
+
+    <task
+        name="javac"
+        duration="2206" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="317" />
+    <task
+        name="verifier"
+        duration="27" />
+
+    <artifact
+        location="/var/www/MyHijab/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
+
+    <build timestamp="1918290718941" >
+        <artifact
+            location="/var/www/MyHijab/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="3732544619625" >
+        <artifact
+            location="/var/www/MyHijab/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

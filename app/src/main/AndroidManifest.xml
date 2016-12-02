@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myhijab.myhijab">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SelectActivity"
+            android:label="Daftar List Produk"
+
+            />
+        <activity android:name=".Register"
+            android:label="Registrasi"
+            />
+        <activity android:name=".DetailActivity"
+            android:label="Detil Produk"
+
+            />
+        <activity android:name=".Pemesanan"
+            android:label="Pemesanan Anda"
+            />
+        <activity android:name=".Bergo"
+            android:label="Bergo Area"
+
+            />
+        <activity android:name=".Instan"
+            android:label="Instan Area"
+
+            />
+        <activity android:name=".Pashmina"
+            android:label="Pashmina Area"
+
+            />
+        <activity android:name=".Jilbabmotif"
+            android:label="Jilbab Motif Area"
+            />
+        <activity android:name=".MenuHijab"
+            android:label="Menu Hijab"
+
+            />
+        <activity android:name=".JenisHijab"
+            android:label="Jenis Hijab"
+
+            ></activity>
+    </application>
+
+</manifest>

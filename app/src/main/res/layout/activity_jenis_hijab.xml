@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
+    tools:context="com.myhijab.myhijab.JenisHijab">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <android.support.v7.widget.ContentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout"
+            android:layout_gravity="center"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F6277F"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="12pt"
+                    android:textColor="#ffffff"
+                    android:text="KATALOG HIJAB"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.ContentFrameLayout>
+
+        <android.support.v7.widget.ContentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:id="@+id/bergo"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="BERGO"
+                    android:background="@drawable/gb_selector_1"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+                <Button
+                    android:id="@+id/instan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="JILBAB INSTAN"
+                    android:background="@drawable/gb_selector_1"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+                <Button
+                    android:id="@+id/jilbabmotif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Jilbab Motif"
+                    android:background="@drawable/gb_selector_1"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+                <Button
+                    android:id="@+id/pashmina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Pashmina"
+                    android:background="@drawable/gb_selector_1"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.ContentFrameLayout>
+    </LinearLayout>
+</RelativeLayout>

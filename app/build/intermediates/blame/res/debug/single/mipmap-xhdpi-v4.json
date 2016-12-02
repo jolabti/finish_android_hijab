@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/var/www/MyHijab/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/var/www/MyHijab/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/var/www/MyHijab/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/asralogo1.png",
+        "source": "/var/www/MyHijab/app/src/main/res/mipmap-xhdpi/asralogo1.png"
+    }
+]
